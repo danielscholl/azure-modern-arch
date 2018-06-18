@@ -1,0 +1,27 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "prefix": {
+      "value": "my"
+    },
+    "subnet": {
+      "value": "mgmt-tier"
+    },
+    "vmName": {
+      "value": "jump"
+    },
+    "vmSize": {
+      "value": "Standard_B2s"
+    },
+    "adminUserName": {
+      "value": "azureuser"
+    },
+    "adminPassword": {
+      "value": "AzurePassword@123"
+    },
+    "remoteAccessACL": {
+      "value": "Internet"
+    }
+  }
+}

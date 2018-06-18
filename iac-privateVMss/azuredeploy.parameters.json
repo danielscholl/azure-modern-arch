@@ -1,0 +1,27 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "prefix": {
+      "value": "my"
+    },
+    "vmName": {
+      "value": "node"
+    },
+    "vmSize": {
+      "value": "Standard_D2_v3"
+    },
+    "numberOfInstances": {
+      "value": 2
+    },
+    "subnet": {
+      "value": "container-tier"
+    },
+    "adminUserName": {
+      "value": "azureuser"
+    },
+    "adminPassword": {
+      "value": "AzurePassword@123"
+    }
+  }
+}
